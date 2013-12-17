@@ -1,0 +1,25 @@
+{
+  "name": "jquery.ad-getautosize",
+  "title": "jQuery getAutosize Plugin",
+  "description": "Returns the max dimensions of the DOM element if it were to auto size.",
+  "version": "1.0.1",
+  "homepage": "https://github.com/abhishek.dev/jquery-getAutosize",
+  "author": {
+    "name": "Abhishek Dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/abhishek.dev/jquery-getAutosize.git"
+  },
+  "bugs": "https://github.com/abhishek.dev/jquery-getAutosize/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/abhishek.dev/jquery-getAutosize/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "1.4.2+"
+  },
+  "keywords": []
+}
