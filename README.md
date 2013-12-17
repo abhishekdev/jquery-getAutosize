@@ -15,7 +15,7 @@ In your web page:
 <script src="dist/jquery.ad-getautosize.min.js"></script>
 <script>
 jQuery(function($) {
-  $([selector]).getautosize(); // "{width:number,height:number}"
+  var elementSize = $([selector]).getautosize(); // "{width:number,height:number}"
 });
 </script>
 ```
