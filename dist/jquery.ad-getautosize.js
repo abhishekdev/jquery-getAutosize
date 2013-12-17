@@ -1,5 +1,5 @@
-/*! jQuery getAutosize Plugin - v1.0.1 - 2013-12-17
-* https://github.com/abhishek.dev/jquery-getAutosize
+/*! jQuery getAutosize Plugin - v1.0.2 - 2013-12-17
+* https://github.com/abhishekdev/jquery-getAutosize
 * Copyright (c) 2013 Abhishek Dev; Licensed MIT */
 /*
  * @author      Abhishek Dev
