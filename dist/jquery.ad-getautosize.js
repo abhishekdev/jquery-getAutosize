@@ -1,11 +1,6 @@
-/*
- * jquery.ad-getautosize
- * https://github.com/abhishek.dev/jquery-getAutosize
- *
- * Copyright (c) 2013 Abhishek Dev
- * Licensed under the MIT license.
- */
-
+/*! jQuery getAutosize Plugin - v1.0.1 - 2013-12-17
+* https://github.com/abhishek.dev/jquery-getAutosize
+* Copyright (c) 2013 Abhishek Dev; Licensed MIT */
 /*
  * @author      Abhishek Dev
  * @date        2010-Nov-18
