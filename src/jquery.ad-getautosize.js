@@ -6,7 +6,7 @@
  * Licensed under the MIT license.
  */
 
-/*
+/**
  * @author      Abhishek Dev
  * @date        2010-Nov-18
  * @modified    2011-Jan-06 by Abhishek Dev
