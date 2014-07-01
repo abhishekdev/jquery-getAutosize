@@ -2,29 +2,28 @@
  * jquery.ad-getautosize
  * https://github.com/abhishek.dev/jquery-getAutosize
  *
- * Copyright (c) 2013 Abhishek Dev
+ * Copyright (c) 2014 Abhishek Dev
  * Licensed under the MIT license.
  */
 
-/**
- * @author      Abhishek Dev
- * @date        2010-Nov-18
- * @modified    2011-Jan-06 by Abhishek Dev
- * @version     1.0.1
- * @requires    jQuery 1.4.2
- * @description This plugin returns the max dimensions of the DOM element if it were to auto size. Useful for speculating best size for content already present on screen.
- * e.g. A good usecase is when Dialogs have to be sized to autofit its content
- * NOTE: Tables must have a defined margin value else IE7 computes margin as auto
- *
- * @returns {Object} Dimensions Plain object with 'width' & 'height' property 
- *
- * @example var dimensions = $([selector]).getAutosize();
- * autoWidth = dimensions.width;
- * autoHeight = dimensions.height; 
- */
-
-  (function($) {
-
+(function($) {
+  
+  /**
+   * @author      Abhishek Dev
+   * @date        2010-Nov-18
+   * @modified    2011-Jan-06 by Abhishek Dev
+   * @version     1.0.1
+   * @requires    jQuery 1.4.2
+   * @description This plugin returns the max dimensions of the DOM element if it were to auto size. Useful for speculating best size for content already present on screen.
+   * e.g. A good usecase is when Dialogs have to be sized to autofit its content
+   * NOTE: Tables must have a defined margin value else IE7 computes margin as auto
+   *
+   * @returns {Object} Dimensions Plain object with 'width' & 'height' property 
+   *
+   * @example var dimensions = $([selector]).getAutosize();
+   * autoWidth = dimensions.width;
+   * autoHeight = dimensions.height; 
+   */
     $.fn.getAutosize = function() {
       var dimension = { width: null, height: null },
           pluginID = "ad-getAutosize-tracker",
